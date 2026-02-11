@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flaskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60d1f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" opacity="0.9"/>
+  
+  <!-- Inner glow circle -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Laboratory flask -->
+  <g transform="translate(100, 100)">
+    <!-- Flask body -->
+    <path d="M -20 -50 L -20 -20 L -35 20 Q -40 30 -35 40 L 35 40 Q 40 30 35 20 L 20 -20 L 20 -50 Z" 
+          fill="url(#flaskGrad)" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Flask liquid -->
+    <ellipse cx="0" cy="35" rx="32" ry="8" fill="#00d9ff" opacity="0.6"/>
+    <path d="M -30 -15 L -33 15 Q -35 25 -30 32 L 30 32 Q 35 25 33 15 L 30 -15 Z" 
+          fill="#00d9ff" opacity="0.4"/>
+    
+    <!-- Bubbles -->
+    <circle cx="-10" cy="10" r="4" fill="#ffffff" opacity="0.7"/>
+    <circle cx="8" cy="20" r="3" fill="#ffffff" opacity="0.6"/>
+    <circle cx="-15" cy="25" r="2.5" fill="#ffffff" opacity="0.5"/>
+    <circle cx="12" cy="5" r="3.5" fill="#ffffff" opacity="0.8"/>
+    
+    <!-- Flask neck -->
+    <rect x="-15" y="-55" width="30" height="8" fill="#e0e7ff" stroke="#ffffff" stroke-width="2"/>
+    <rect x="-12" y="-60" width="24" height="5" fill="#c7d2fe"/>
+  </g>
+  
+  <!-- Circuit elements around flask -->
+  <!-- Top left -->
+  <circle cx="35" cy="35" r="6" fill="none" stroke="#ffd700" stroke-width="2.5"/>
+  <line x1="35" y1="29" x2="35" y2="20" stroke="#ffd700" stroke-width="2.5"/>
+  
+  <!-- Top right -->
+  <rect x="158" y="28" width="12" height="12" fill="none" stroke="#ff6b9d" stroke-width="2.5" rx="2"/>
+  <line x1="164" y1="40" x2="164" y2="48" stroke="#ff6b9d" stroke-width="2.5"/>
+  
+  <!-- Bottom left -->
+  <path d="M 30 165 Q 35 165 35 170 Q 35 175 30 175" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+  <line x1="30" y1="170" x2="22" y2="170" stroke="#4ade80" stroke-width="2.5"/>
+  
+  <!-- Bottom right -->
+  <polygon points="165,160 170,165 165,170 160,165" fill="none" stroke="#fb923c" stroke-width="2.5"/>
+  <line x1="170" y1="165" x2="178" y2="165" stroke="#fb923c" stroke-width="2.5"/>
+  
+  <!-- Connecting lines -->
+  <path d="M 40 35 Q 60 30 80 40" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3" stroke-dasharray="3,3"/>
+  <path d="M 160 35 Q 140 30 120 40" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3" stroke-dasharray="3,3"/>
+</svg>

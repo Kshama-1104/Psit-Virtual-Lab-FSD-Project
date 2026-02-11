@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="url(#archBg)"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" fill="#1e293b" font-weight="bold" text-anchor="middle">PSIT Virtual Labs Architecture</text>
+  
+  <!-- User Layer -->
+  <g transform="translate(300, 80)">
+    <rect x="0" y="0" width="300" height="60" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="150" y="25" font-family="Arial, sans-serif" font-size="14" fill="#1e40af" font-weight="bold" text-anchor="middle">USER INTERFACE</text>
+    <text x="150" y="45" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Desktop • Mobile • Tablet</text>
+  </g>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="140" x2="450" y2="170" stroke="#94a3b8" stroke-width="3"/>
+  <polygon points="450,170 445,160 455,160" fill="#94a3b8"/>
+  
+  <!-- Presentation Layer -->
+  <g transform="translate(100, 180)">
+    <rect x="0" y="0" width="700" height="80" rx="8" fill="#ffffff" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" fill="#6d28d9" font-weight="bold">PRESENTATION LAYER</text>
+    
+    <!-- Components -->
+    <g transform="translate(30, 35)">
+      <rect x="0" y="0" width="150" height="35" rx="5" fill="#f3e8ff"/>
+      <text x="75" y="23" font-family="Arial, sans-serif" font-size="11" fill="#6d28d9" text-anchor="middle">Lab Interfaces</text>
+    </g>
+    
+    <g transform="translate(200, 35)">
+      <rect x="0" y="0" width="150" height="35" rx="5" fill="#f3e8ff"/>
+      <text x="75" y="23" font-family="Arial, sans-serif" font-size="11" fill="#6d28d9" text-anchor="middle">Experiment Views</text>
+    </g>
+    
+    <g transform="translate(370, 35)">
+      <rect x="0" y="0" width="150" height="35" rx="5" fill="#f3e8ff"/>
+      <text x="75" y="23" font-family="Arial, sans-serif" font-size="11" fill="#6d28d9" text-anchor="middle">Assessment Forms</text>
+    </g>
+    
+    <g transform="translate(540, 35)">
+      <rect x="0" y="0" width="130" height="35" rx="5" fill="#f3e8ff"/>
+      <text x="65" y="23" font-family="Arial, sans-serif" font-size="11" fill="#6d28d9" text-anchor="middle">Results Display</text>
+    </g>
+  </g>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="260" x2="450" y2="290" stroke="#94a3b8" stroke-width="3"/>
+  <polygon points="450,290 445,280 455,280" fill="#94a3b8"/>
+  
+  <!-- Business Logic Layer -->
+  <g transform="translate(100, 300)">
+    <rect x="0" y="0" width="700" height="100" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" fill="#047857" font-weight="bold">BUSINESS LOGIC LAYER</text>
+    
+    <!-- Components -->
+    <g transform="translate(30, 40)">
+      <rect x="0" y="0" width="130" height="50" rx="5" fill="#d1fae5"/>
+      <text x="65" y="20" font-family="Arial, sans-serif" font-size="11" fill="#047857" text-anchor="middle" font-weight="bold">Simulation</text>
+      <text x="65" y="35" font-family="Arial, sans-serif" font-size="9" fill="#065f46" text-anchor="middle">Core Engine</text>
+    </g>
+    
+    <g transform="translate(180, 40)">
+      <rect x="0" y="0" width="130" height="50" rx="5" fill="#d1fae5"/>
+      <text x="65" y="20" font-family="Arial, sans-serif" font-size="11" fill="#047857" text-anchor="middle" font-weight="bold">Assessment</text>
+      <text x="65" y="35" font-family="Arial, sans-serif" font-size="9" fill="#065f46" text-anchor="middle">Test Handler</text>
+    </g>
+    
+    <g transform="translate(330, 40)">
+      <rect x="0" y="0" width="130" height="50" rx="5" fill="#d1fae5"/>
+      <text x="65" y="20" font-family="Arial, sans-serif" font-size="11" fill="#047857" text-anchor="middle" font-weight="bold">Validation</text>
+      <text x="65" y="35" font-family="Arial, sans-serif" font-size="9" fill="#065f46" text-anchor="middle">Input Check</text>
+    </g>
+    
+    <g transform="translate(480, 40)">
+      <rect x="0" y="0" width="130" height="50" rx="5" fill="#d1fae5"/>
+      <text x="65" y="20" font-family="Arial, sans-serif" font-size="11" fill="#047857" text-anchor="middle" font-weight="bold">Feedback</text>
+      <text x="65" y="35" font-family="Arial, sans-serif" font-size="9" fill="#065f46" text-anchor="middle">Analytics</text>
+    </g>
+  </g>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="400" x2="450" y2="430" stroke="#94a3b8" stroke-width="3"/>
+  <polygon points="450,430 445,420 455,420" fill="#94a3b8"/>
+  
+  <!-- Data Layer -->
+  <g transform="translate(100, 440)">
+    <rect x="0" y="0" width="700" height="90" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" fill="#b45309" font-weight="bold">DATA & UTILITIES LAYER</text>
+    
+    <!-- Components -->
+    <g transform="translate(30, 40)">
+      <rect x="0" y="0" width="140" height="40" rx="5" fill="#fef3c7"/>
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="11" fill="#b45309" text-anchor="middle">Algorithm Libraries</text>
+    </g>
+    
+    <g transform="translate(190, 40)">
+      <rect x="0" y="0" width="140" height="40" rx="5" fill="#fef3c7"/>
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="11" fill="#b45309" text-anchor="middle">Math Utilities</text>
+    </g>
+    
+    <g transform="translate(350, 40)">
+      <rect x="0" y="0" width="140" height="40" rx="5" fill="#fef3c7"/>
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="11" fill="#b45309" text-anchor="middle">Visualization APIs</text>
+    </g>
+    
+    <g transform="translate(510, 40)">
+      <rect x="0" y="0" width="160" height="40" rx="5" fill="#fef3c7"/>
+      <text x="80" y="25" font-family="Arial, sans-serif" font-size="11" fill="#b45309" text-anchor="middle">Browser Storage</text>
+    </g>
+  </g>
+  
+  <!-- Side annotations -->
+  <!-- Left side - Features -->
+  <g transform="translate(20, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#64748b" font-weight="bold">Features:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">• No Backend</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">• Client-side</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">• Responsive</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">• Fast Load</text>
+  </g>
+  
+  <!-- Right side - Technologies -->
+  <g transform="translate(820, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#64748b" font-weight="bold" text-anchor="end">Stack:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">HTML5</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">CSS3</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">JavaScript</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Bootstrap</text>
+  </g>
+  
+  <!-- Bottom deployment info -->
+  <g transform="translate(300, 555)">
+    <rect x="0" y="0" width="300" height="35" rx="6" fill="#4f46e5" opacity="0.9"/>
+    <text x="150" y="23" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">🚀 Deployed on Vercel</text>
+  </g>
+</svg>

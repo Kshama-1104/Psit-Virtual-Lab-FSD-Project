@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fde68a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="350" fill="url(#techBg)"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="26" fill="#1e293b" font-weight="bold" text-anchor="middle">Modern Technology Stack</text>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">Built with cutting-edge web technologies for optimal performance</text>
+  
+  <!-- Layer 1: Core Technologies -->
+  <g transform="translate(150, 100)">
+    <rect x="0" y="0" width="900" height="60" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="14" fill="#78350f" font-weight="bold">FRONTEND LAYER</text>
+    
+    <!-- HTML5 -->
+    <g transform="translate(50, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#e34c26" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#e34c26" font-weight="bold">HTML5</text>
+      <text x="90" y="21" font-family="Arial, sans-serif" font-size="11" fill="#78350f">Structure</text>
+    </g>
+    
+    <!-- CSS3 -->
+    <g transform="translate(250, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#1572b6" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#1572b6" font-weight="bold">CSS3</text>
+      <text x="75" y="21" font-family="Arial, sans-serif" font-size="11" fill="#78350f">Styling</text>
+    </g>
+    
+    <!-- JavaScript -->
+    <g transform="translate(450, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#f0db4f" opacity="0.3"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#323330" font-weight="bold">JavaScript</text>
+      <text x="120" y="21" font-family="Arial, sans-serif" font-size="11" fill="#78350f">Logic</text>
+    </g>
+    
+    <!-- Bootstrap -->
+    <g transform="translate(650, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#7952b3" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#7952b3" font-weight="bold">Bootstrap</text>
+      <text x="115" y="21" font-family="Arial, sans-serif" font-size="11" fill="#78350f">UI</text>
+    </g>
+  </g>
+  
+  <!-- Layer 2: Visualization -->
+  <g transform="translate(150, 180)">
+    <rect x="0" y="0" width="900" height="60" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="14" fill="#064e3b" font-weight="bold">VISUALIZATION LAYER</text>
+    
+    <!-- Chart.js -->
+    <g transform="translate(50, 25)">
+      <rect x="0" y="0" width="200" height="32" rx="6" fill="#ff6384" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#c9184a" font-weight="bold">Chart.js</text>
+      <text x="100" y="21" font-family="Arial, sans-serif" font-size="11" fill="#064e3b">Graphs</text>
+    </g>
+    
+    <!-- Anime.js -->
+    <g transform="translate(270, 25)">
+      <rect x="0" y="0" width="200" height="32" rx="6" fill="#f472b6" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#be185d" font-weight="bold">Anime.js</text>
+      <text x="105" y="21" font-family="Arial, sans-serif" font-size="11" fill="#064e3b">Animation</text>
+    </g>
+    
+    <!-- Canvas API -->
+    <g transform="translate(490, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#06b6d4" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#0e7490" font-weight="bold">Canvas</text>
+      <text x="85" y="21" font-family="Arial, sans-serif" font-size="11" fill="#064e3b">Drawing</text>
+    </g>
+    
+    <!-- D3.js -->
+    <g transform="translate(690, 25)">
+      <rect x="0" y="0" width="140" height="32" rx="6" fill="#f97316" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#c2410c" font-weight="bold">D3.js</text>
+      <text x="70" y="21" font-family="Arial, sans-serif" font-size="11" fill="#064e3b">Data Viz</text>
+    </g>
+  </g>
+  
+  <!-- Layer 3: Computation -->
+  <g transform="translate(150, 260)">
+    <rect x="0" y="0" width="900" height="60" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="3"/>
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="14" fill="#312e81" font-weight="bold">COMPUTATION LAYER</text>
+    
+    <!-- Math.js -->
+    <g transform="translate(50, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#8b5cf6" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#6d28d9" font-weight="bold">Math.js</text>
+      <text x="95" y="21" font-family="Arial, sans-serif" font-size="11" fill="#312e81">Calculations</text>
+    </g>
+    
+    <!-- Algorithms -->
+    <g transform="translate(250, 25)">
+      <rect x="0" y="0" width="200" height="32" rx="6" fill="#3b82f6" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#1e40af" font-weight="bold">Algorithms</text>
+      <text x="115" y="21" font-family="Arial, sans-serif" font-size="11" fill="#312e81">Core Logic</text>
+    </g>
+    
+    <!-- Simulators -->
+    <g transform="translate(470, 25)">
+      <rect x="0" y="0" width="180" height="32" rx="6" fill="#14b8a6" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#0f766e" font-weight="bold">Simulators</text>
+      <text x="110" y="21" font-family="Arial, sans-serif" font-size="11" fill="#312e81">Execution</text>
+    </g>
+    
+    <!-- Utils -->
+    <g transform="translate(670, 25)">
+      <rect x="0" y="0" width="160" height="32" rx="6" fill="#84cc16" opacity="0.1"/>
+      <text x="20" y="21" font-family="Arial, sans-serif" font-size="16" fill="#4d7c0f" font-weight="bold">Utilities</text>
+      <text x="95" y="21" font-family="Arial, sans-serif" font-size="11" fill="#312e81">Helpers</text>
+    </g>
+  </g>
+  
+  <!-- Architecture badges -->
+  <g transform="translate(100, 20)">
+    <rect x="0" y="0" width="130" height="28" rx="14" fill="#10b981"/>
+    <text x="65" y="19" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">Zero Backend</text>
+  </g>
+  
+  <g transform="translate(970, 20)">
+    <rect x="0" y="0" width="130" height="28" rx="14" fill="#3b82f6"/>
+    <text x="65" y="19" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">Offline Ready</text>
+  </g>
+</svg>

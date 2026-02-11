@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250">
+  <defs>
+    <linearGradient id="step1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f472b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="250" fill="#f9fafb"/>
+  
+  <!-- Step 1: Theory -->
+  <g transform="translate(40, 60)">
+    <circle cx="60" cy="60" r="55" fill="url(#step1)" opacity="0.9"/>
+    <circle cx="60" cy="60" r="45" fill="#ffffff" opacity="0.2"/>
+    <!-- Book icon -->
+    <rect x="40" y="45" width="40" height="30" rx="3" fill="#ffffff" opacity="0.9"/>
+    <line x1="60" y1="45" x2="60" y2="75" stroke="#22c55e" stroke-width="2"/>
+    <line x1="45" y1="52" x2="55" y2="52" stroke="#22c55e" stroke-width="1.5"/>
+    <line x1="65" y1="52" x2="75" y2="52" stroke="#22c55e" stroke-width="1.5"/>
+    <line x1="45" y1="60" x2="55" y2="60" stroke="#22c55e" stroke-width="1.5"/>
+    <line x1="65" y1="60" x2="75" y2="60" stroke="#22c55e" stroke-width="1.5"/>
+    <line x1="45" y1="68" x2="55" y2="68" stroke="#22c55e" stroke-width="1.5"/>
+    <!-- Label -->
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold" text-anchor="middle">Theory Study</text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Learn Concepts</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <g transform="translate(150, 115)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#9ca3af" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <polygon points="35,0 30,-4 30,4" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Step 2: Pre-Test -->
+  <g transform="translate(230, 60)">
+    <circle cx="60" cy="60" r="55" fill="url(#step2)" opacity="0.9"/>
+    <circle cx="60" cy="60" r="45" fill="#ffffff" opacity="0.2"/>
+    <!-- Clipboard icon -->
+    <rect x="45" y="42" width="30" height="36" rx="3" fill="#ffffff" opacity="0.9"/>
+    <rect x="52" y="38" width="16" height="6" rx="2" fill="#3b82f6"/>
+    <line x1="52" y1="52" x2="68" y2="52" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="52" y1="60" x2="68" y2="60" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="52" y1="68" x2="68" y2="68" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="50" cy="52" r="2" fill="#3b82f6"/>
+    <circle cx="50" cy="60" r="2" fill="#3b82f6"/>
+    <!-- Label -->
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold" text-anchor="middle">Pre-Test</text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Assess Readiness</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <g transform="translate(340, 115)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#9ca3af" stroke-width="3"/>
+    <polygon points="35,0 30,-4 30,4" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Step 3: Simulation -->
+  <g transform="translate(420, 60)">
+    <circle cx="60" cy="60" r="55" fill="url(#step3)" opacity="0.9"/>
+    <circle cx="60" cy="60" r="45" fill="#ffffff" opacity="0.2"/>
+    <!-- Flask/beaker icon -->
+    <path d="M 50 48 L 50 55 L 43 70 Q 42 73 43 76 L 77 76 Q 78 73 77 70 L 70 55 L 70 48 Z" 
+          fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="60" cy="73" rx="14" ry="3" fill="#f97316" opacity="0.6"/>
+    <rect x="48" y="45" width="24" height="4" rx="1" fill="#fb923c"/>
+    <circle cx="55" cy="65" r="2" fill="#ffffff" opacity="0.8"/>
+    <circle cx="63" cy="68" r="1.5" fill="#ffffff" opacity="0.7"/>
+    <!-- Label -->
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold" text-anchor="middle">Simulation</text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Hands-on Practice</text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <g transform="translate(530, 115)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#9ca3af" stroke-width="3"/>
+    <polygon points="35,0 30,-4 30,4" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Step 4: Post-Test -->
+  <g transform="translate(610, 60)">
+    <circle cx="60" cy="60" r="55" fill="url(#step4)" opacity="0.9"/>
+    <circle cx="60" cy="60" r="45" fill="#ffffff" opacity="0.2"/>
+    <!-- Checkmark icon -->
+    <circle cx="60" cy="60" r="20" fill="#ffffff" opacity="0.9"/>
+    <polyline points="50,60 56,66 70,52" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"/>
+    <!-- Label -->
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold" text-anchor="middle">Post-Test</text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Evaluate Learning</text>
+  </g>
+  
+  <!-- Arrow 4 -->
+  <g transform="translate(720, 115)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#9ca3af" stroke-width="3"/>
+    <polygon points="35,0 30,-4 30,4" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Step 5: Feedback -->
+  <g transform="translate(800, 60)">
+    <circle cx="60" cy="60" r="55" fill="url(#step5)" opacity="0.9"/>
+    <circle cx="60" cy="60" r="45" fill="#ffffff" opacity="0.2"/>
+    <!-- Lightbulb icon -->
+    <circle cx="60" cy="55" r="12" fill="#ffffff" opacity="0.9"/>
+    <path d="M 55 67 L 55 72 Q 55 74 57 74 L 63 74 Q 65 74 65 72 L 65 67" fill="#ffffff" opacity="0.9" stroke="#ec4899" stroke-width="1.5"/>
+    <rect x="57" y="74" width="6" height="3" rx="1" fill="#ec4899"/>
+    <line x1="60" y1="47" x2="60" y2="43" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="68" y1="49" x2="71" y2="46" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="52" y1="49" x2="49" y2="46" stroke="#fbbf24" stroke-width="2"/>
+    <!-- Label -->
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold" text-anchor="middle">Feedback</text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Review Results</text>
+  </g>
+  
+  <!-- Progress indicators -->
+  <text x="100" y="30" font-family="Arial, sans-serif" font-size="14" fill="#4ade80" font-weight="bold">STEP 1</text>
+  <text x="290" y="30" font-family="Arial, sans-serif" font-size="14" fill="#60a5fa" font-weight="bold">STEP 2</text>
+  <text x="480" y="30" font-family="Arial, sans-serif" font-size="14" fill="#fb923c" font-weight="bold">STEP 3</text>
+  <text x="670" y="30" font-family="Arial, sans-serif" font-size="14" fill="#a78bfa" font-weight="bold">STEP 4</text>
+  <text x="860" y="30" font-family="Arial, sans-serif" font-size="14" fill="#f472b6" font-weight="bold">STEP 5</text>
+  
+  <!-- Timeline connector -->
+  <line x1="100" y1="45" x2="860" y2="45" stroke="#e5e7eb" stroke-width="3"/>
+  <circle cx="100" cy="45" r="5" fill="#4ade80"/>
+  <circle cx="290" cy="45" r="5" fill="#60a5fa"/>
+  <circle cx="480" cy="45" r="5" fill="#fb923c"/>
+  <circle cx="670" cy="45" r="5" fill="#a78bfa"/>
+  <circle cx="860" cy="45" r="5" fill="#f472b6"/>
+  
+  <!-- Success indicator -->
+  <g transform="translate(950, 60)">
+    <circle cx="60" cy="60" r="55" fill="#10b981" opacity="0.2" stroke="#10b981" stroke-width="3" stroke-dasharray="8,8"/>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🎓</text>
+    <text x="60" y="140" font-family="Arial, sans-serif" font-size="14" fill="#10b981" font-weight="bold" text-anchor="middle">SUCCESS!</text>
+  </g>
+  
+  <!-- Arrow to success -->
+  <g transform="translate(910, 115)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#10b981" stroke-width="3" stroke-dasharray="5,5"/>
+    <polygon points="35,0 30,-4 30,4" fill="#10b981"/>
+  </g>
+</svg>
