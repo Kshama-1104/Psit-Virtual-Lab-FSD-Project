@@ -423,7 +423,7 @@ graph LR
 Visit the live platform directly - no installation needed!
 
 ```
-🌐 https://psit-virtual-labs.vercel.app/
+🌐 https://psit-virtual-lab-fsd-project.vercel.app/
 ```
 
 #### Option 2: Run Locally
@@ -431,7 +431,7 @@ Visit the live platform directly - no installation needed!
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/Psit-Virtual-Labs.git
+git clone https://github.com/Kshama-1104/Psit-Virtual-Lab-FSD-Project.git
 cd Psit-Virtual-Labs
 ```
 
@@ -673,7 +673,8 @@ We welcome contributions from students, faculty, and developers! Here's how you 
    ```bash
    # Click the 'Fork' button on GitHub
    # Clone your fork
-   git clone https://github.com/YOUR-USERNAME/Psit-Virtual-Labs.git
+   git clone https://github.com/Kshama-1104/Psit-Virtual-Lab-FSD-Project
+.git
    cd Psit-Virtual-Labs
    ```
 
