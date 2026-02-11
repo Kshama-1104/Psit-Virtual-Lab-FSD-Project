@@ -423,7 +423,7 @@ graph LR
 Visit the live platform directly - no installation needed!
 
 ```
-🌐 https://psit-virtual-lab-fsd-project.vercel.app/
+https://psit-virtual-lab-fsd-project.vercel.app/
 ```
 
 #### Option 2: Run Locally
